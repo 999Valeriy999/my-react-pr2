@@ -1,5 +1,5 @@
 import './App.css'
-import Product from "../src/components/Product";
+import Product from "./Product";
 import { HiUser } from "react-icons/hi";
 
 function App() {
