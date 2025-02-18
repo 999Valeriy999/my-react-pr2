@@ -7,6 +7,7 @@ import "./index.css";
 
 const rootElement = document.getElementById("root")
 const reactRoot = ReactDOM.createRoot(rootElement)
+
  reactRoot.render(
   <React.StrictMode>
     <App />
