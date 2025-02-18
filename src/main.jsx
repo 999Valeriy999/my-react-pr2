@@ -5,8 +5,10 @@ import "modern-normalize";
 import App from "./components/App.jsx";
 import "./index.css";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+const rootElement = document.getElementById("root")
+const reactRoot = ReactDOM.createRoot(rootElement)
+ reactRoot.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
-);
+  </React.StrictMode>,
+)
